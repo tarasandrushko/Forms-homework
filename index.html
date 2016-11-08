@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homework Forms</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+           
+           
+
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                        <header>
+                            <h2><b>Order Form</b></h2>
+                             <div class="bbb">
+                            
+                            <fieldset>
+                           <legend>General Info</legend>
+                               
+                            <label for="email">
+                            Email</label>
+                            <input type="text"
+                            name="email"
+                            id="email"
+                            placeholder="your@email.com" />
+                            <br />
+
+                            <label for="Login">
+                            Login</label>
+                            <input type="text"
+                            name="Login"
+                            id="Login"
+                            placeholder="Login" />
+                            <br />
+                            <label for="password">
+                            Password</label>
+                            <input type="password"
+                            name="password"
+                            id="password"
+                            placeholder="password" />
+                            </fieldset>
+                            </div>
+
+                                
+                        
+                            <br />
+
+                            <fieldset>
+                               <legend>User Info</legend>
+                                 <label for="Firstname">
+                                  First Name</label>
+                              <input type="text"
+                                     name="Firstname"
+                                     id="Firstname"
+                                     placeholder="John" />
+                               <br />
+                                  <label for="Secondname">
+                                   Second Name</label>
+                                <input type="text"
+                                     name="Secondname"
+                                      id="Secondname"
+                                      placeholder="Doe" />
+                                <br />
+                            
+                                  <label for="checkbox">
+                                   Gender</label>
+                                <input type="checkbox" 
+                                      name="checkbox" 
+                                      id="checkbox"
+                                      value="checkbox1" 
+                                      checked> male
+                              <input 
+                                      type="checkbox" 
+                                      name="checkbox"
+                                      value="checkbox2" 
+                                      > female 
+                                      
+                            <br />
+                        
+                                  <label for="Age">
+                                     Age</label>
+                                <input type="text"
+                                      name="Age"
+                                      id="Age"
+                                      placeholder="32" />
+                            <form>
+                                   <label for="Aboutme">
+                                About me</label>
+                                 <textarea name="textarea"
+                                           id="Aboutme"
+                                      cols="20" rows="4">
+                                </textarea>
+                            </form>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Order Info</legend>
+                                <label>
+                                 Product   
+                                </label>
+                                
+
+                                
+                                  <select name="select">
+
+                                    <option value="Iphone">Iphone</option>
+                                    <option value="Samsung">Samsung</option>
+                                    <option value="Nokia">Nokia</option>
+                                  </select>
+
+                                  <br />
+                               <label for="Frontcolor">
+                                   Front color
+                               </label>
+
+                                <input type="radio" 
+                                        name="Black"
+                                        id="Frontcolor" 
+                                        value="myValue1"
+                                        checked> Black
+
+                                      <input type="radio" 
+                                        name="Pink" 
+                                        value="myValue2" 
+                                        > Pink
+                                        <input type="radio"
+                                        name="Gold"
+                                        value="myValue3"
+                                        > Gold
+                                        <br />
+                                        <label for="Back-side-color">
+                                            Back-side color
+                                        </label>
+                                        <input type="color"
+                                               id="Back-side-color">
+
+                                        <br />
+
+                                    <label for="Amount">
+                                        Amount
+                                    </label>
+                                    <input type="text"
+                                           name="Amount"
+                                           id="Amount"
+                                           placeholder="5" />
+                                           <br />
+                                           <label for="Deliverydate">
+                                               Delivery date
+                                           </label>
+                                           <input type="text"
+                                           name="Deliveydate"
+                                           id="Deliverydate"
+                                           value="mm/dd/yyyy">
+                         </fieldset>
+                                         <form>
+                                             <input type="Reset" 
+                                            name="Reset" value="Reset">
+                                          <input type="Submit" 
+                                            name="Submit2" value="Submit">
+                                         </form>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
